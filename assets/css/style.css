@@ -886,6 +886,7 @@ a:hover {
   font-weight: bolder;
   transform: translate(-50%, -50%);
   color: aliceblue;
+  text-align: center;
 }
 
 .div-image1 {
