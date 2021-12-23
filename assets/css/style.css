@@ -110,7 +110,7 @@ a:hover {
 
 .paralax-mf {
   position: relative;
-  padding: 8rem 0;
+  padding: 2rem 0;
 }
 
 .display-table {
@@ -198,6 +198,7 @@ a:hover {
   margin-bottom: 3rem;
   z-index: 2;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 30px;
 }
 @media (min-width: 768px) {
   .box-shadow-full {
@@ -870,7 +871,7 @@ a:hover {
 
 .img-fluid-industrie {  
   transition: all 0.3s ease-in-out;
-  filter: brightness(25%);
+  filter: brightness(50%);
   border-radius: 5px;
 }
 .div-image {
