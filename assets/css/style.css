@@ -91,7 +91,7 @@ a:hover {
 }
 
 .overlay-mf {
-  background-color: #0078ff;
+  background-color: #0f2a96;
 }
 
 .overlay-mf {
@@ -160,7 +160,7 @@ a:hover {
 .line-mf {
   width: 40px;
   height: 5px;
-  background-color: #0078ff;
+  background-color: #0f2a96;
   margin: 0 auto;
 }
 
@@ -177,7 +177,7 @@ a:hover {
   content: "";
   position: absolute;
   height: 3px;
-  background-color: #0078ff;
+  background-color: #0f2a96;
   width: 100px;
   bottom: -12px;
 }
@@ -250,7 +250,7 @@ a:hover {
   line-height: 1.55;
   margin: 0 auto;
   text-align: center;
-  box-shadow: 0 0 0 10px #0078ff;
+  box-shadow: 0 0 0 10px #0f2a96;
   display: block;
 }
 
@@ -770,7 +770,7 @@ a:hover {
 }
 .skills .progress-bar
 {
-    background: #3063f0;
+    background: #0f2a96;
 }
 .skills .progress h5
 {
@@ -808,7 +808,7 @@ a:hover {
 .service-box:hover .ico-circle {
   transition: all 500ms ease;
   color: #fff;
-  background-color: #0078ff;
+  background-color: #0f2a96;
   box-shadow: 0 0 0 10px #cde1f8;
 }
 .service-box .service-ico {
@@ -1277,7 +1277,7 @@ footer {
   text-align: center;
   color: #fff;
   padding: 25px 0;
-  background: #0062d3;
+  background: #e75f00;
 }
 footer .copyright {
   margin-bottom: 0.3rem;

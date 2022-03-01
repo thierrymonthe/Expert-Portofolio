@@ -47,8 +47,11 @@ let profiles = [
             date: " January 2021 - March 2021",
         },
         description: {
-            title: "Titre 2",
-            desc: "Description du projet 2",
+            title: "Goal",
+            desc: "Development of an Exposure Manager Solution for the Visualiza-tion of Risk Exposure on an interactive map",
+            title2: "Tasks",
+            task: "<br>&#10004 Backlog development and agreement with business departments. < br >&#10004 Definition of a project architecture and a workflow for the users of the Exposure Manager. < br >&#10004 Set up of the development environment(R) and installation of required packages(sf, leaflet...). < br >&#10004 Development of R- Scripts for data preparation, kpi calculations(Data Pipeline) and map creation for visualization < br >&#10004 Coaching and Training of employees for the utilization of the Exposure Manager Solution<br>&#10004 Integration of the created Solution into an AWS - Cloud Environment"
+            
         },
         images: ['assets/img/portfolio-details-1.jpg',
             'assets/img/portfolio-details-2.jpg',
@@ -63,8 +66,10 @@ let profiles = [
             date: " June 2019 - August 2020",
         },
         description: {
-            title: "Titre 3",
-            desc: "Description du projet 3",
+            title: "Goal",
+            desc: "Development of Analytic Models to support and improve Learn-ing and User Experience",
+            title2: "Tasks",
+            task: "<br>&#10004 Planning Follow-Up Meeting.  <br>&#10004 Definition Analytics Questions <br>&#10004 Identification of required Datapoints <br>&#10004 Development of required Analytics Algorithms <br>&#10004 Organisation and Implementation Ideation Phase. <br>&#10004 Creation of a Project Management Plan (Scope, Timelines, Resources, …). <br>&#10004 Integration of the created Solution into an AWS-Cloud Environment. <br>&#10004 Definition/Implementation eines Analytics-Framework <br>&#10004 Implementation of the Data Pipeline (Extraction data from the production System). <br>&#10004 Data Management und Data Preparation (Data Pipe-line) <br>&#10004 Segmentation User Data/Learning and Assignment Data <br>&#10004 Development of POC-Dashboard mit R Shiny and Deployment in Customer Environment (AWS) <br>&#10004 Conception, Implementation, and deployment of the ETL Pipeline in Customer Environment (AWS). <br>&#10004 Organisation und Implementation of the Document Structure (Confluence). <br>&#10004 Definition of a project architecture and a workflow for the users of the Exposure Manager. "
         },
         images: ['assets/img/portfolio-details-1.jpg',
             'assets/img/portfolio-details-2.jpg',
