@@ -29,11 +29,13 @@ let profiles = [
             date: "June 2020 – June 2021",
         },
         description: {
-            title: "Titre 1",
-            desc: "Description du projet 1",
+            title: "Goal",
+            desc: "Development and Management of analytics solutions around early crisis detection.",
+            title2: "Tasks",
+            task: "<br>&#10004 Planning, implementation, quality control, reporting, test <br>&#10004 Implementation of a full text-search engine using R, R Shiny and Elasticsearch <br>&#10004	Organization and implementation of the documentation structure(Confluence) <br>&#10004 Integration and creation of task packages that can be handed over to development units<br><span>&#10004 Further development of a highly secure cloud storage solution in the context of R-Shiny</span> <br><span>&#10004 Consulting and support for DevOps product owners, development team, product management <br>&#10004 Implementation of R-Shiny Web Applications(shiny, testthat, shinyloadtest, shinycannon, profvis)<br>&#10004 Coordination with all stakeholders involved(development teams, business units, department heads) in the agile DevOps development team <br>&#10004 Implementation of a Topic Model for the identification of categories from a corpus of around 10.000 full texts(LSA, LSM using R / Python)</span> <br>&#10004 Analysis, specification, conception and, if necessary, implementation of developments and concepts in the context of Hana and data feeds  <br>&#10004 Coaching and Training of employees in the context of R-Shiny, R-Data Pipeline and the associated tech stack(Docker, R, Python)    "
         },
         images: ['assets/img/portfolio-details-1.jpg',
-            'assets/img/portfolio-details-2.jpg',
+            'assets/img/portfolio-details-1.jpg',
             'assets/img/portfolio-details-3.jpg']
     },
     {
@@ -238,4 +240,6 @@ document.getElementById('role').innerHTML = profile.projectInfo.role;
 document.getElementById('date').innerHTML = profile.projectInfo.date;
 document.getElementById('title').innerHTML = profile.description.title;
 document.getElementById('desc').innerHTML = profile.description.desc;
+document.getElementById('title2').innerHTML = profile.description.title2;
+document.getElementById('task').innerHTML = profile.description.task;
 } 
