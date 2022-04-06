@@ -231,7 +231,7 @@ let profiles = [
             title: "Goal",
             desc: "Development of an automated bank reporting system including dashboards (collections/operation) for monitoring specific func-tionalities of the banking process",
             title2: "Tasks",
-            task: "<br>&#10004 Definition relevant Key Performance Indicators (KPI) <br>&#10004 Creation required Data Marts for KPI Calculations <br>&#10004 Implementation of SAS-Jobs for KPI-Calculations <br>&#10004 Monthly Reporting <br>&#10004 Business Analyse monthly results <br>&#10004 Stakeholder Management <br>&#10004 Performance Optimization <br>&#10004 Ad-Hoc Analyses <br>&#10004 <br>&#10004 <br>&#10004 "
+            task: "<br>&#10004 Definition relevant Key Performance Indicators (KPI) <br>&#10004 Creation required Data Marts for KPI Calculations <br>&#10004 Implementation of SAS-Jobs for KPI-Calculations <br>&#10004 Monthly Reporting <br>&#10004 Business Analyse monthly results <br>&#10004 Stakeholder Management <br>&#10004 Performance Optimization <br>&#10004 Ad-Hoc Analyse"
         },
         images: ['assets/img/portfolio-details-1.jpg',
             'assets/img/portfolio-details-2.jpg',
