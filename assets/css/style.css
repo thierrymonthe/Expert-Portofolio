@@ -220,12 +220,25 @@ a:hover {
   box-shadow: 0 0 0 3px #0f2a96;
   transition: all 500ms ease;
 }
-.socials .ico-circle:hover {
+
+.socials .ico-circle .bi-facebook {
+  color: #3b5998;
+}
+.socials .ico-circle .bi-instagram {
+  color: #c32aa3;
+}
+.socials .ico-circle .bi-twitter {
+  color: #1da1f2;
+}
+.socials .ico-circle .bi-linkedin {
+  color: #007bb5;
+}
+/* .socials .ico-circle:hover {
   background-color: #0f2a96;
   color: #fff;
   box-shadow: 0 0 0 3px #aeb7dd;
   transition: all 500ms ease;
-}
+} */
 
 /*------/ Ul resect /------*/
 .ul-resect, .widget-tags ul, .widget-sidebar .list-sidebar, .box-comments .list-comments, .blog-wrapper .post-meta ul, .list-ico, .socials ul {
@@ -499,7 +512,7 @@ a:hover {
   width: 100%;
   height: 2px;
   bottom: -6px;
-  left: 0;
+  /* left: 0; */
   width: 0;
   background-color: #e75f00;
   visibility: hidden;
@@ -881,11 +894,23 @@ a:hover {
   position: absolute;
   top: 50%;
   left: 50%;
-  font-size: 23px;
+  font-size: 20px;
   font-weight: bolder;
   transform: translate(-50%, -50%);
   color: aliceblue;
   text-align: center;
+}
+
+.text-bank {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 20px;
+  font-weight: bolder;
+  transform: translate(-50%, -50%);
+  color: aliceblue;
+  text-align: center;
+
 }
 
 .div-image1 {
