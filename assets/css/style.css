@@ -849,6 +849,10 @@ a:hover {
   color: #4e4e4e;
 }
 
+.service-box .service-content .webD {
+  text-align: justify!important;
+}
+
 /*--------------------------------------------------------------
 # Counter
 --------------------------------------------------------------*/
@@ -1054,6 +1058,14 @@ a:hover {
 
 .portfolio-details .projectTask .textTask {
   font-size: 1.5rem;
+}
+
+.portfolio-details .taskEnumerate {
+  font-size: 1.3em;
+}
+
+.portfolio-details .taskEnumerate li {
+  margin-bottom: 5px;
 }
 
 /*--------------------------------------------------------------
