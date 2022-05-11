@@ -121,6 +121,8 @@ a:hover {
   vertical-align: middle;
 }
 
+
+
 /*--/ Sections /--*/
 .sect-4 {
   padding: 4rem 0;
@@ -766,6 +768,10 @@ a:hover {
   }
 }
 
+.about-me .lead{
+  text-align: justify;
+}
+
 /*Adding code about the skills*/
 .skills
 {
@@ -1008,6 +1014,12 @@ a:hover {
 .portfolio-details {
   padding-top: 40px;
 }
+.portfolio-details h1 {
+  color: black;
+}
+.portfolio-details h2 {
+  color: #0f2a96;
+}
 .portfolio-details .portfolio-details-slider img {
   width: 100%;
 }
@@ -1026,12 +1038,13 @@ a:hover {
   background-color: #0078ff;
 }
 .portfolio-details .portfolio-info {
+  border-radius: 1rem;
   padding: 30px;
-  box-shadow: 0px 0 30px rgba(78, 78, 78, 0.08);
+  box-shadow: 8px 8px 8px 8px rgb(0 0 0 / 10%);
 }
 .portfolio-details .portfolio-info h3 {
-  font-size: 22px;
-  font-weight: 700;
+  /*font-size: 22px;
+  font-weight: 700;*/
   margin-bottom: 20px;
   padding-bottom: 20px;
   border-bottom: 1px solid #eee;
@@ -1039,33 +1052,48 @@ a:hover {
 .portfolio-details .portfolio-info ul {
   list-style: none;
   padding: 0;
-  font-size: 15px;
+  font-size: 1.3rem;
 }
 .portfolio-details .portfolio-info ul li + li {
-  margin-top: 10px;
+  margin-top: 20px;
 }
 .portfolio-details .portfolio-description {
-  padding-top: 30px;
+  border-radius: 1rem;
+  padding: 30px;
+  box-shadow: 8px 8px 8px 8px rgb(0 0 0 / 10%);
 }
-.portfolio-details .portfolio-description h2 {
+/* .portfolio-details .portfolio-description h2 {
   font-size: 26px;
   font-weight: 700;
   margin-bottom: 20px;
-}
-.portfolio-details .portfolio-description p {
+} */
+.portfolio-details .portfolio-description ul {
+  list-style: none;
   padding: 0;
+  font-size: 1.3rem;
+}
+.portfolio-details .portfolio-description ul {
+  text-align: justify;
 }
 
-.portfolio-details .projectTask .textTask {
-  font-size: 1.5rem;
-}
 
 .portfolio-details .taskEnumerate {
-  font-size: 1.3em;
+  font-size: 1.3rem;
+
 }
 
 .portfolio-details .taskEnumerate li {
+  margin-top: 10px;
   margin-bottom: 5px;
+}
+
+.portfolio-details .portfolio-task {
+  margin-top: 60px;
+  margin-bottom: 30px;
+  margin-left: 0px;
+  border-radius: 1rem;
+  padding: 30px;
+  box-shadow: 8px 8px 8px 8px rgb(0 0 0 / 10%);
 }
 
 /*--------------------------------------------------------------
